@@ -58,6 +58,112 @@ body {
   margin: 5rem 0rem;
 }
 
-.bg_change_blue {
-  background-color: rgb(40, 87, 152);
+.bg-section-home-one:before {
+  background: #337ab7 !important;
+}
+
+.plans-one {
+  border: 1px solid red !important;
+  border-radius: 1rem;
+}
+.plans-one-patch {
+  box-sizing: content-box;
+}
+.plans-one:hover {
+  box-shadow: none !important;
+}
+
+.price_main_row {
+  padding: 5rem 0;
+}
+
+.price_box {
+  border: 1px solid rgba(128, 128, 128, 0.181);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  height: 100%;
+  transition: all 0.3s linear;
+}
+.price_box h2 {
+  color: #0b3363;
+  font-size: 3.4rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+.price_box ul {
+  text-align: left;
+}
+.price_box ul li {
+  list-style-type: none;
+  line-height: 3.5rem;
+  font-size: 1.6rem;
+}
+.price_box .inline_item p {
+  display: inline-block;
+}
+.price_box .inline_item p:not(:last-child) {
+  font-size: 1.8rem;
+  margin-right: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.price_box .inline_item p:last-child {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(4, 51, 131, 0.9803921569);
+  background-color: rgba(0, 149, 255, 0.213);
+  padding: 0.2rem 0.9rem;
+  border-radius: 1.2rem;
+  text-transform: uppercase;
+}
+.price_box .inline_item p .color_price {
+  color: blue;
+  margin: 0 0.2rem;
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+.price_box .price_tag {
+  font-size: 1.7rem;
+}
+.price_box .price_tag span {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #099f7c;
+}
+.price_box .main_button a {
+  text-decoration: none;
+  background-color: #faa200;
+  border-radius: 0.5rem;
+  display: block;
+  padding: 0.8rem 0rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.price_box .main_button a:hover {
+  background-color: #e19100;
+}
+.price_box .btn_desc {
+  margin-top: 2rem;
+}
+.price_box .item_center h2 {
+  text-transform: uppercase;
+}
+.price_box .item_center * {
+  text-align: center;
+}
+.price_box:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.233);
+  transition: all 0.3s linear;
+  transform: translateY(-1rem);
+  border: 1px solid #faa200;
+}
+
+.price_specs {
+  padding-inline: 4rem;
+}
+.price_specs i {
+  color: #faa200;
+  margin-right: 1rem;
+  font-weight: 800;
 }/*# sourceMappingURL=main.css.map */
