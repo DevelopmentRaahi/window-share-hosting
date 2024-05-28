@@ -73,6 +73,12 @@ html {
   .main_container-bg .first_content {
     text-align: center;
   }
+  .main_container-bg .first_content-2 {
+    text-align: center;
+  }
+  .main_container-bg .first_content-2 img {
+    width: 90%;
+  }
 }
 .section_main {
   margin: 5rem 0rem;

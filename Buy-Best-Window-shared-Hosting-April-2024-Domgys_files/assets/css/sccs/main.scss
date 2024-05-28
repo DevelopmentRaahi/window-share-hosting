@@ -87,6 +87,13 @@ html{
 
         .first_content{
             text-align: center;
+
+            &-2{
+                text-align: center;
+                img{
+                    width: 90%;
+                }
+            }
         }
     }
  }
