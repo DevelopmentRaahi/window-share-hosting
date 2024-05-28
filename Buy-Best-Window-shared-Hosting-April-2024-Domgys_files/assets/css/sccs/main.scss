@@ -1,8 +1,8 @@
+
 body{
     font-size: 62.5%;
 }
-.main_container{  
-     
+.main_container{       
     background: linear-gradient(to right, rgb(9 9 9 / 83%), rgb(47 62 47 / 72%) ) ,url('https://png.pngtree.com/thumb_back/fh260/background/20230625/pngtree-d-render-of-a-robust-data-server-for-efficient-web-hosting-image_3677208.jpg');
     background-size: cover;
     background-position: center;
@@ -11,14 +11,14 @@ body{
     &-bg{
         padding: 10rem 0rem;
     }
-    .first_content  {
+    .first_content{
             // background-color: rgba(231, 231, 231, 0.267);
             &-1{
                padding: 11rem 0rem;
                 .sub-heading{
                     font-size: 2rem;
                     color: rgba(255, 255, 255, 0.767);
-                    font-weight: 500;                   
+                    font-weight: 500;                  
                 }
                 h1{
                     font-size: 4.3rem;
@@ -34,9 +34,7 @@ body{
                 }
 
             }
-
-
-    }
+        }
 }
 .section_main{
     margin: 5rem 0rem;
