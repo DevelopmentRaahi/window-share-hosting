@@ -80,6 +80,24 @@ html {
     width: 90%;
   }
 }
+@media (min-width: 960px) and (max-width: 1140px) {
+  html {
+    font-size: 62.5%;
+  }
+  .main_container-bg {
+    padding: 7rem 0;
+  }
+  .main_container-bg .first_content {
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  .main_container-bg .first_content-2 {
+    text-align: center;
+  }
+  .main_container-bg .first_content-2 img {
+    width: 80%;
+  }
+}
 .section_main {
   margin: 5rem 0rem;
 }
@@ -162,8 +180,8 @@ html {
   text-decoration: none;
   background-color: #faa200;
   border-radius: 0.5rem;
-  display: inline-block;
-  padding: 1.3rem 8rem;
+  display: block;
+  padding: 1rem 1rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: #fff;

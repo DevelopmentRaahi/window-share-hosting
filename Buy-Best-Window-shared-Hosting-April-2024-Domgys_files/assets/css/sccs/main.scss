@@ -97,6 +97,27 @@ html{
         }
     }
  }
+
+ @media (min-width:960px) and (max-width:1140px){
+    html{
+        font-size: 62.5%;
+    }
+    .main_container-bg{
+        padding: 7rem 0;
+
+        .first_content{
+            text-align: center;
+            padding: 2rem 2rem;
+
+            &-2{
+                text-align: center;
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+ }
  
 
 .section_main {
@@ -119,9 +140,10 @@ html{
     }
 }
 $btn_pric_color:#099f7c;
- $add_cart_color:#faa200;
+$add_cart_color:#faa200;
 $heading_para_color: #0b3363;
 $one_two_three_color: blue;
+
 @mixin  boxshadow {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.233);
 }
@@ -197,8 +219,8 @@ $one_two_three_color: blue;
          text-decoration: none;
          background-color: $add_cart_color;
          border-radius: 0.5rem;
-         display: inline-block;
-         padding: 1.3rem 8rem ;
+         display: block;
+         padding: 1rem 1rem ;
          font-size: 1.5rem;
          font-weight: 500;
          color: #fff;
