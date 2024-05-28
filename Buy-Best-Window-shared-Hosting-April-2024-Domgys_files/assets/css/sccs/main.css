@@ -89,7 +89,7 @@ html {
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
-  max-height: 52rem;
+  height: 52rem;
   margin-bottom: 3rem;
   transition: all 0.3s linear;
 }

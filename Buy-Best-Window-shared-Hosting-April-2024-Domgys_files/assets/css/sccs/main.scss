@@ -105,14 +105,13 @@ $one_two_three_color: blue;
   
 }
 
-
 .price_box {
     // background-color: rgba(128, 128, 128, 0.181);
     border: 1px solid rgba(128, 128, 128, 0.181);
     padding: 1.5rem;
     border-radius: 0.5rem;  
     box-sizing: border-box;
-    max-height: 52rem;
+    height: 52rem;
     margin-bottom: 3rem;
         
     h2{
