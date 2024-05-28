@@ -85,7 +85,7 @@ html {
 }
 
 .price_box {
-  border: 1px solid rgba(128, 128, 128, 0.181);
+  border: 1px solid #003666;
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
