@@ -56,4 +56,8 @@ body {
 
 .section_main {
   margin: 5rem 0rem;
+}
+
+.bg_change_blue {
+  background-color: rgb(40, 87, 152);
 }/*# sourceMappingURL=main.css.map */
