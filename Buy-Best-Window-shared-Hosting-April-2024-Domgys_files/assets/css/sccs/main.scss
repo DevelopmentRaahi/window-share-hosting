@@ -149,7 +149,11 @@ $one_two_three_color:#b90400;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.233);
 }
 .price_main_row {
-    padding: 5rem 0;
+    padding: 6rem 0 0rem 0;
+  
+}
+.price_main_row-1 {
+    padding: 0rem 0 2rem 0;
   
 }
 
@@ -159,7 +163,7 @@ $one_two_three_color:#b90400;
     padding: 1.5rem;
     border-radius: 0.5rem;  
     box-sizing: border-box;
-    height: 52rem;
+    height: 100%;
     margin-bottom: 3rem;
         
     h2{
@@ -290,4 +294,7 @@ $one_two_three_color:#b90400;
 }
 .newsletter{
     outline: none;
+}
+.price_main_row-1{
+  
 }

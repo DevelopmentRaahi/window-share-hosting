@@ -118,7 +118,11 @@ html {
 }
 
 .price_main_row {
-  padding: 5rem 0;
+  padding: 6rem 0 0rem 0;
+}
+
+.price_main_row-1 {
+  padding: 0rem 0 2rem 0;
 }
 
 .price_box {
@@ -126,7 +130,7 @@ html {
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
-  height: 52rem;
+  height: 100%;
   margin-bottom: 3rem;
   transition: all 0.3s linear;
 }
