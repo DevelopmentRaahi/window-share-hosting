@@ -245,4 +245,13 @@ html {
 }
 .newsletter {
   outline: none;
+}
+
+.home-one-faq .panel-default .collapsed:before {
+  background: #666 url("../../img/icons/toggle-icons-collappes.png") no-repeat 6px -148px;
+}
+
+.home-one-faq .panel-default .accordion-toggle:before {
+  content: "";
+  background: #003666 url("../../img/icons/toggle-icons-collappes.png") no-repeat 6px 10px;
 }/*# sourceMappingURL=main.css.map */
