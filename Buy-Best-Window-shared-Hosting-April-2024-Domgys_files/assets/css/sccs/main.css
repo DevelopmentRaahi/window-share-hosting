@@ -20,13 +20,16 @@ html {
 .main_container-bg {
   padding: 10rem 0rem;
 }
+.main_container .first_content .text_color {
+  color: #ffffff;
+}
 .main_container .first_content-1 {
   padding: 4rem 0rem;
 }
 .main_container .first_content-1 .sub-heading {
   font-size: 1.8rem;
   color: rgba(255, 255, 255, 0.767);
-  font-weight: 500;
+  font-weight: 400;
 }
 .main_container .first_content-1 h1 {
   font-size: 4rem;
@@ -63,6 +66,12 @@ html {
 @media screen and (max-width: 776px) {
   html {
     font-size: 60%;
+  }
+  .main_container-bg {
+    padding: 2rem 0;
+  }
+  .main_container-bg .first_content {
+    text-align: center;
   }
 }
 .section_main {

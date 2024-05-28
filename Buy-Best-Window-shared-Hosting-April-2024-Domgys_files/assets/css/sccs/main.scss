@@ -23,12 +23,15 @@ html{
     }
     .first_content{
             // background-color: rgba(231, 231, 231, 0.267);
+            .text_color{
+                color: #ffffff;
+            }
             &-1{
                padding: 4rem 0rem;
                 .sub-heading{
                     font-size: 1.8rem;
                     color: rgba(255, 255, 255, 0.767);
-                    font-weight: 500;                  
+                    font-weight: 400;                  
                 }
                 h1{
                     font-size: 4rem;
@@ -74,9 +77,17 @@ html{
     }
         
  }  
+
  @media screen and (max-width:776px) {
     html{
         font-size: 60%;
+    }
+    .main_container-bg{
+        padding: 2rem 0;
+
+        .first_content{
+            text-align: center;
+        }
     }
  }
  
