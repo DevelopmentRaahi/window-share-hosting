@@ -248,6 +248,7 @@ html {
 }
 
 .home-one-faq .panel-default .collapsed:before {
+  content: "";
   background: #666 url("../../img/icons/toggle-icons-collappes.png") no-repeat 6px -148px;
 }
 
