@@ -148,24 +148,24 @@ html {
   display: inline-block;
 }
 .price_box .inline_item p:not(:last-child) {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-right: 1.1rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 .price_box .inline_item p:last-child {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  color: rgba(4, 51, 131, 0.9803921569);
+  color: rgba(20, 20, 20, 0.9803921569);
   background-color: rgba(0, 149, 255, 0.213);
-  padding: 0.2rem 0.9rem;
+  padding: 0.4rem 1.1rem;
   border-radius: 1.2rem;
   text-transform: uppercase;
 }
 .price_box .inline_item p .color_price {
-  color: blue;
+  color: #b90400;
   margin: 0 0.2rem;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-decoration: line-through;
 }
 .price_box .price_tag {
@@ -213,4 +213,29 @@ html {
   color: #faa200;
   margin-right: 1rem;
   font-weight: 800;
+}
+
+.home-one-faq-section {
+  background-image: url("../../img/faq-bg.jpg");
+  background-position: right top;
+}
+
+.bx-home-one {
+  color: #06a097;
+  transition: all 0.5s linear;
+}
+.bx-home-one:hover {
+  transition: all 0.2s linear;
+  background-color: #06a097;
+  color: #fff;
+}
+.bx-home-one:hover div {
+  color: #fff;
+}
+
+@media (max-width: 776px) {
+  .home-one-faq-section {
+    background-image: none;
+    background-position: right top;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -96,6 +96,7 @@ html{
             }
         }
     }
+   
  }
 
  @media (min-width:960px) and (max-width:1140px){
@@ -142,7 +143,7 @@ html{
 $btn_pric_color:#099f7c;
 $add_cart_color:#faa200;
 $heading_para_color: #0b3363;
-$one_two_three_color: blue;
+$one_two_three_color:#b90400;
 
 @mixin  boxshadow {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.233);
@@ -180,25 +181,25 @@ $one_two_three_color: blue;
         p{
             display: inline-block;  
             &:not(:last-child) {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 margin-right: 1.1rem;               
                 // text-transform: uppercase;
                 font-family: "Open Sans", sans-serif;
                 font-weight: 600;
             }   
             &:last-child{
-                font-size: 1.2rem;
+                font-size: 1.6rem;
                 font-weight: 600;
-                color: #043383fa;
+                color: #141414fa;
                 background-color: rgba(0, 149, 255, 0.213);
-                padding: 0.2rem 0.9rem;
+                padding: 0.4rem 1.1rem;
                 border-radius: 1.2rem;
                 text-transform: uppercase;
             } 
             .color_price{
                 color: $one_two_three_color;
                 margin:0 0.2rem;
-                font-size: 1.4rem;
+                font-size: 1.8rem;
                 text-decoration: line-through;
             }               
         }
@@ -262,5 +263,28 @@ $one_two_three_color: blue;
             }
     
 }
+.home-one-faq-section{
+    background-image: url('../../img/faq-bg.jpg');
+    background-position: right top;
+}
+ .bx-home-one{
+    color: #06a097;
+    transition: all 0.5s linear;
+    
+    &:hover{
+        transition: all 0.2s linear;
+        background-color: #06a097;
+        color: #fff;
+        div{
+            color: #fff;
+        }
+    }
+ }
 
  
+ @media  (max-width:776px){
+    .home-one-faq-section{
+        background-image: none;
+        background-position: right top;
+    }
+}
