@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     font-size: 62.5%;
 }
@@ -14,29 +14,56 @@ body{
     .first_content{
             // background-color: rgba(231, 231, 231, 0.267);
             &-1{
-               padding: 11rem 0rem;
+               padding: 4rem 0rem;
                 .sub-heading{
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     color: rgba(255, 255, 255, 0.767);
                     font-weight: 500;                  
                 }
                 h1{
-                    font-size: 4.3rem;
+                    font-size: 5rem;
                     color: #fffd72;
-                    font-weight: 600;
+                    font-weight: 800;
                     padding: 0 0 0.6rem 0;
-                    line-height: 4rem;
+                   font-family: "Roboto", sans-serif !important;
                 }
                 p{
                     font-size: 1.8rem;
-                    padding: 1rem 0rem;
+                    padding: 1rem 3.5rem 0rem 0rem;
                     color: #fff;
                 }
+                a{
+                    margin-top: 3rem;
+                    padding: 1rem 2rem;
+                    width: 25%;
+                    outline: none;
+                    font-size: 1.8rem;
+                    &:hover{
+                        outline: none;
+                    }
 
+                    &:not(:first-child){
+                        margin-right: 2rem;
+                       
+                   }                               
+
+                }
+                .btn-warning{
+                    color: #000;
+                   } 
+
+            //image
+            &-2 {
+                img{
+                    width: 100%;
+                    height: 50%;
+                }
+           
             }
         }
-}
-.section_main{
+    }
+        
+ }   
+.section_main {
     margin: 5rem 0rem;
-   
 }
