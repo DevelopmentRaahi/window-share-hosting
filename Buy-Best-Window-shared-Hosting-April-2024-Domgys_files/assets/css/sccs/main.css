@@ -29,7 +29,7 @@ html {
   font-weight: 500;
 }
 .main_container .first_content-1 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fffd72;
   font-weight: 800;
   padding: 0 0 0.6rem 0;
@@ -42,10 +42,9 @@ html {
 }
 .main_container .first_content-1 a {
   margin-top: 3rem;
-  padding: 1rem 2rem;
-  width: 25%;
+  padding: 1rem 4rem;
   outline: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .main_container .first_content-1 a:hover {
   outline: none;
@@ -61,6 +60,11 @@ html {
   height: 50%;
 }
 
+@media screen and (max-width: 776px) {
+  html {
+    font-size: 60%;
+  }
+}
 .section_main {
   margin: 5rem 0rem;
 }

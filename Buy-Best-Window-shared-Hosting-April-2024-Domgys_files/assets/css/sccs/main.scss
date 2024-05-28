@@ -31,7 +31,7 @@ html{
                     font-weight: 500;                  
                 }
                 h1{
-                    font-size: 5rem;
+                    font-size: 4rem;
                     color: #fffd72;
                     font-weight: 800;
                     padding: 0 0 0.6rem 0;
@@ -44,10 +44,10 @@ html{
                 }
                 a{
                     margin-top: 3rem;
-                    padding: 1rem 2rem;
-                    width: 25%;
+                    padding: 1rem 4rem;
+                
                     outline: none;
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                     &:hover{
                         outline: none;
                     }
@@ -73,7 +73,14 @@ html{
         }
     }
         
- }   
+ }  
+ @media screen and (max-width:776px) {
+    html{
+        font-size: 60%;
+    }
+ }
+ 
+
 .section_main {
     margin: 5rem 0rem;
 }
