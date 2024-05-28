@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-    font-size: 62.5%;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+    box-sizing: inherit;
+}
+
 .main_container{       
     background: linear-gradient(to right, rgb(9 9 9 / 83%), rgb(47 62 47 / 72%) ) ,url('https://png.pngtree.com/thumb_back/fh260/background/20230625/pngtree-d-render-of-a-robust-data-server-for-efficient-web-hosting-image_3677208.jpg');
     background-size: cover;
@@ -92,7 +102,7 @@ $one_two_three_color: blue;
 }
 .price_main_row {
     padding: 5rem 0;
-   
+  
 }
 
 
@@ -101,7 +111,9 @@ $one_two_three_color: blue;
     border: 1px solid rgba(128, 128, 128, 0.181);
     padding: 1.5rem;
     border-radius: 0.5rem;  
-    height: 100% ;
+    box-sizing: border-box;
+    max-height: 52rem;
+    margin-bottom: 3rem;
         
     h2{
         color: $heading_para_color;
@@ -161,8 +173,8 @@ $one_two_three_color: blue;
          text-decoration: none;
          background-color: $add_cart_color;
          border-radius: 0.5rem;
-         display: block;
-         padding: 0.8rem 0rem ;
+         display: inline-block;
+         padding: 1.3rem 8rem ;
          font-size: 1.5rem;
          font-weight: 500;
          color: #fff;
@@ -194,7 +206,9 @@ $one_two_three_color: blue;
     
 }
  .price_specs{
-        padding-inline:4rem ;                                   
+         
+        display: grid;
+        justify-content: center;                                    
             i{
                 color: $add_cart_color;
                 margin-right: 1rem;
