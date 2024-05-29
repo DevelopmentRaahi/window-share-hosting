@@ -255,4 +255,29 @@ html {
 .home-one-faq .panel-default .accordion-toggle:before {
   content: "";
   background: #003666 url("../../img/icons/toggle-icons-collappes.png") no-repeat 6px 10px;
+}
+
+.icon_outer-box {
+  padding: 7rem 0;
+}
+.icon_outer-box .icon-box {
+  background-color: rgba(239, 239, 239, 0.72);
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.icon_outer-box .icon-box i {
+  font-size: 4rem;
+  padding: 1rem 0;
+  color: #fab400;
+}
+.icon_outer-box .icon-box .icon_main_desc {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #2c4d92;
+  line-height: 3rem;
+}
+.icon_outer-box .icon-box .icon_main_desc-2 {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */

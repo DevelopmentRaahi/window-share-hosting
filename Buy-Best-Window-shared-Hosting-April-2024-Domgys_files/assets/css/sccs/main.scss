@@ -302,6 +302,37 @@ $one_two_three_color:#b90400;
 }
 
 .home-one-faq .panel-default .accordion-toggle:before {
-    content: "";    
+    content: '';    
     background: #003666 url('../../img/icons/toggle-icons-collappes.png') no-repeat 6px 10px;
+}
+
+// serices section start
+
+.icon_outer-box{    
+    padding: 7rem 0;
+    .icon-box{
+        background-color: rgb(239 239 239 / 72%);
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+
+        i{
+            font-size: 4rem;
+            padding: 1rem 0;
+            color: #fab400;
+           
+        }
+        .icon_main_desc{
+            font-size: 3rem;
+            font-weight: 500;
+            color: #2c4d92;
+            line-height: 3rem;
+            &-2{
+                font-size: 1.6rem;
+            }
+        }
+    }
+
 }
