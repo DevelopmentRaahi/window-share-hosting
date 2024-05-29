@@ -319,11 +319,17 @@ $one_two_three_color:#b90400;
         justify-content: center;
         border: 1px solid rgb(6, 33, 105);
         border-radius: 1.2rem;
+        transition: box-shadow 0.5s;
+        &:hover{
+            box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.17);
+          
+        }
 
         i{
             font-size: 4rem;
             padding: 1rem 0;
             color: #fab400;
+           
            
         }
         .icon_main_desc{
