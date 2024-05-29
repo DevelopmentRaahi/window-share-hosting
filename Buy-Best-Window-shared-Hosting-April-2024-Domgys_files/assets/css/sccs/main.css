@@ -31,7 +31,7 @@ html {
   color: rgba(255, 255, 255, 0.767);
   font-weight: 400;
 }
-.main_container .first_content-1 h1 {
+.main_container .first_content-1 .main {
   font-size: 4rem;
   color: #fffd72;
   font-weight: 800;
