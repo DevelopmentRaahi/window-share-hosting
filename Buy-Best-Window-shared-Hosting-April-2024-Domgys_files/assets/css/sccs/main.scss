@@ -317,6 +317,8 @@ $one_two_three_color:#b90400;
         display: flex;
         // align-items: center;
         justify-content: center;
+        border: 1px solid rgb(6, 33, 105);
+        border-radius: 1.2rem;
 
         i{
             font-size: 4rem;
