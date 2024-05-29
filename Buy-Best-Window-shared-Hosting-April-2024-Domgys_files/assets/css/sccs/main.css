@@ -273,11 +273,12 @@ html {
   color: #fab400;
 }
 .icon_outer-box .icon-box .icon_main_desc {
+  padding: 1rem 0rem;
   font-size: 3rem;
   font-weight: 500;
   color: #2c4d92;
-  line-height: 3rem;
 }
 .icon_outer-box .icon-box .icon_main_desc-2 {
   font-size: 1.6rem;
+  line-height: 2.5rem;
 }/*# sourceMappingURL=main.css.map */

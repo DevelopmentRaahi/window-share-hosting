@@ -325,12 +325,14 @@ $one_two_three_color:#b90400;
            
         }
         .icon_main_desc{
+            padding: 1rem 0rem;
             font-size: 3rem;
             font-weight: 500;
             color: #2c4d92;
-            line-height: 3rem;
+            
             &-2{
                 font-size: 1.6rem;
+                line-height: 2.5rem;
             }
         }
     }
