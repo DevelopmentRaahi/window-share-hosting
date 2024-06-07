@@ -287,8 +287,7 @@ html {
 .icon_outer-box .icon-box .icon_main_desc-2 {
   font-size: 1.6rem;
   line-height: 2.5rem;
-}/*# sourceMappingURL=main.css.map */
-
+}
 
 .whatsap_button {
   display: grid;
@@ -296,7 +295,7 @@ html {
   justify-content: center;
   opacity: 0.9;
   transition: all 0.5s;
-  z-index: 300;
+  z-index: 3000;
 }
 .whatsap_button:hover {
   opacity: 1;
@@ -314,7 +313,7 @@ html {
   text-align: center;
   font-size: 20px;
   box-shadow: 2px 2px 3px #999;
-  z-index: 300;
+  z-index: 3000;
   display: grid;
   filter: grayscale(100);
 }

@@ -354,7 +354,7 @@ $one_two_three_color:#b90400;
     justify-content: center;
     opacity: 0.9;
     transition: all 0.5s;
-    z-index: 300;
+    z-index: 3000;
     &:hover {
       opacity: 1;
       transition: all 0.5s;
@@ -372,7 +372,7 @@ $one_two_three_color:#b90400;
       text-align: center;
       font-size: 20px;
       box-shadow: 2px 2px 3px #999;
-      z-index: 300;
+      z-index: 3000;
       display: grid;
       filter: grayscale(100);
   
