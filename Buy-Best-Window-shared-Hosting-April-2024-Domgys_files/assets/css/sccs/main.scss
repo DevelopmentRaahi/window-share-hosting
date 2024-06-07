@@ -346,3 +346,55 @@ $one_two_three_color:#b90400;
     }
 
 }
+
+//whatsap chat
+.whatsap_button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    transition: all 0.5s;
+    z-index: 300;
+    &:hover {
+      opacity: 1;
+      transition: all 0.5s;
+    }
+  
+    .float {
+      position: fixed;
+      width: 45px;
+      height: 45px;
+      bottom: 20px;
+      left: 16px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 20px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 300;
+      display: grid;
+      filter: grayscale(100);
+  
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+    .call_icon {
+      transition: all 0.5s;
+      background-color: #0787bd;
+      &:hover {
+        .bi-telephone-fill {
+          transform: rotate(135deg);
+          transition: all 0.5s;
+        }
+      }
+    }
+    .top-1 {
+      bottom: 80px;
+    }
+    .my-float {
+      align-self: center;
+    }
+  }
+  
