@@ -295,7 +295,7 @@ html {
   justify-content: center;
   opacity: 0.9;
   transition: all 0.5s;
-  z-index: 3000;
+  z-index: 300;
 }
 .whatsap_button:hover {
   opacity: 1;
@@ -305,17 +305,17 @@ html {
   position: fixed;
   width: 45px;
   height: 45px;
-  bottom: 20px;
-  left: 16px;
+  bottom: 68px;
+  right: 16px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 20px;
   box-shadow: 2px 2px 3px #999;
-  z-index: 3000;
+  z-index: 300;
   display: grid;
-  filter: grayscale(100);
+  animation: blink 1s infinite;
 }
 .whatsap_button .float:hover {
   filter: grayscale(0);
@@ -329,8 +329,19 @@ html {
   transition: all 0.5s;
 }
 .whatsap_button .top-1 {
-  bottom: 80px;
+  bottom: 120px;
 }
 .whatsap_button .my-float {
   align-self: center;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }/*# sourceMappingURL=main.css.map */
